@@ -5,3 +5,11 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+SELECT * FROM CustomersResponses;
+
+CREATE TABLE CustomersResponses(
+ CustomerID INTEGER,
+ NumberOfPeople INTEGER);
+
+DROP TABLE Customers_responses;
